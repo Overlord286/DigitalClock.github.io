@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #2f363e;
+}
+
+#clock{
+    font-size: 100px;
+    border-bottom: #04fc43 4px solid;
+    display: flex;
+    border-top: #fee800 4px solid;
+    border-left: #ff2972 4px solid;
+    border-right: #ff2972 4px solid;
+    font-family: sans-serif;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 40px #000;
+}
+
+#hour{
+    color: #ff2972;
+}
+
+#minutes{
+    color: #fee800;
+}
+
+#seconds{
+    color: #04fc43;
+}
+
+#ampm{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
